@@ -2,4 +2,4 @@ version: 0.1
 phases:
   build:
     commands:
-      - mvn verify sonar:sonar -Dsonar.projectKey=projectKey -Dsonar.organization=projectOrg -Dsonar.host.url=https://sonarcould.io -Dsonar.login=token
+      - mvn verify sonar:sonar -Dsonar.projectKey=projectKey -Dsonar.organization=projectOrg -Dsonar.host.url=https://sonarcould.io -Dsonar.login=6430ce93cfa278238981bd58e6e83e17e47e9ba2
